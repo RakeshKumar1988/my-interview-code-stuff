@@ -1,0 +1,6 @@
+1. Open link - https://cloud.google.com/compute/docs/reference/rest/v1/backendServices/get
+2. Login to GCP Console --> Compute Engine --> create a VM
+3. Call the follwoing URL and use get request with Request parameters : project AND backendService
+
+GET https://compute.googleapis.com/compute/v1/projects/{project}/global/backendServices/{resourceId}
+i.e. GET https://compute.googleapis.com/compute/v1/projects/instance-1/global/backendServices/Service account
